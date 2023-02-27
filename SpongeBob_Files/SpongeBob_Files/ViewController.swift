@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let intro = ContextItem(name: "Introduction", image: UIImage(named:"intro")!, text: "SpongeBob is sponge who works at the Krusty Krab. He is often adventuring and having fun with his friends Patrick Star, Sandy Squirl, and Squidward")
+    
     let home = ContextItem(name: "Home", image: UIImage(named: "pineapple_house")!, text:"SpongeBob lives in a pineapple under the sea. The address is 124 Conch Street, Bikini Bottom, Pacific Ocean."
     )
     
@@ -23,7 +25,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        contextItems = [home, pet, funFact]
+        contextItems = [intro, home, pet, funFact]
         
         for contextItem in contextItems {
                 print(contextItem)
@@ -42,6 +44,8 @@ class ViewController: UIViewController {
                 detailViewController.contextItem = contextItems[1]
             } else if tappedView.tag == 2 {
                 detailViewController.contextItem = contextItems[2]
+            } else if tappedView.tag == 3 {
+                detailViewController.contextItem = contextItems[3]
             } else {
                 print("please check your selection.")
             }

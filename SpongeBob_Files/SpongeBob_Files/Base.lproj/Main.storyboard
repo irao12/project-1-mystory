@@ -33,33 +33,41 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="vr3-i0-B7D" userLabel="Button Stack View">
-                                <rect key="frame" x="152" y="418.66666666666669" width="89.333333333333314" height="143.00000000000006"/>
+                                <rect key="frame" x="138.33333333333334" y="418.66666666666669" width="116.33333333333334" height="178.66666666666669"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epp-fe-71M">
-                                        <rect key="frame" x="0.0" y="0.0" width="89.333333333333329" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="116.33333333333333" height="26"/>
                                         <gestureRecognizers/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Introduction"/>
                                         <connections>
                                             <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="Aet-nw-Pbg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-kC-Btb">
-                                        <rect key="frame" x="0.0" y="56" width="89.333333333333329" height="31"/>
+                                        <rect key="frame" x="0.0" y="51" width="116.33333333333333" height="25.666666666666671"/>
                                         <gestureRecognizers/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Pet"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                         <connections>
                                             <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="FZ5-Xi-hGB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" verticalCompressionResistancePriority="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr5-P7-D9G">
-                                        <rect key="frame" x="0.0" y="111.99999999999994" width="89.333333333333329" height="31"/>
+                                        <rect key="frame" x="0.0" y="101.66666666666669" width="116.33333333333333" height="26"/>
                                         <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pet"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="W9m-6E-Gpb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzS-XL-WEB">
+                                        <rect key="frame" x="0.0" y="152.66666666666669" width="116.33333333333333" height="26"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Fun Fact"/>
                                         <connections>
-                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="W9m-6E-Gpb"/>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="gPD-os-jDD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -72,7 +80,7 @@
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="top" secondItem="yfz-RJ-gmY" secondAttribute="top" constant="30" id="8sS-KF-htM"/>
                             <constraint firstItem="vr3-i0-B7D" firstAttribute="top" secondItem="nvy-6d-Aqs" secondAttribute="bottom" constant="30" id="BKd-vG-8kr"/>
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="PZW-SR-Exj"/>
-                            <constraint firstItem="vr3-i0-B7D" firstAttribute="height" secondItem="yfz-RJ-gmY" secondAttribute="height" multiplier="0.2" id="Xnb-hP-T6f"/>
+                            <constraint firstItem="vr3-i0-B7D" firstAttribute="height" secondItem="yfz-RJ-gmY" secondAttribute="height" multiplier="0.25" id="Xnb-hP-T6f"/>
                             <constraint firstItem="vr3-i0-B7D" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="kxF-oe-PwU"/>
                         </constraints>
                     </view>
@@ -152,7 +160,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="W9m-6E-Gpb"/>
+        <segue reference="gPD-os-jDD"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="portrait" width="1000" height="1000"/>
