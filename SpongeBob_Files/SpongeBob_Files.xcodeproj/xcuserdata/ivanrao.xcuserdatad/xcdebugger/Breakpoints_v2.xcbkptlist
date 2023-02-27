@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9D481650-EBEC-406B-969E-935FB9274EAA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpongeBob_Files/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614 - 3545480358ad9876"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpongeBob_Files.DetailViewController.nameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SpongeBob_Files"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanrao/project-1-mystory/SpongeBob_Files/SpongeBob_Files/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614 - f683a3e350f7fc62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpongeBob_Files.DetailViewController.nameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SpongeBob_Files"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanrao/project-1-mystory/SpongeBob_Files/SpongeBob_Files/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614 - 4ab033eb94dbff73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpongeBob_Files.DetailViewController.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SpongeBob_Files"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanrao/project-1-mystory/SpongeBob_Files/SpongeBob_Files/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614 - 4d3db825e3189d37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpongeBob_Files.DetailViewController.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SpongeBob_Files"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanrao/project-1-mystory/SpongeBob_Files/SpongeBob_Files/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614 - 44dbf3ae367bf15d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpongeBob_Files.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SpongeBob_Files.DetailViewController"
+                  moduleName = "SpongeBob_Files"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanrao/project-1-mystory/SpongeBob_Files/SpongeBob_Files/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "27C09AE6-1B14-45A8-8BF3-EA9547DF3614 - a3b545b68f0e971d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpongeBob_Files.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SpongeBob_Files.DetailViewController&gt;"
+                  moduleName = "SpongeBob_Files"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanrao/project-1-mystory/SpongeBob_Files/SpongeBob_Files/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

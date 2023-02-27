@@ -12,13 +12,14 @@ class ViewController: UIViewController {
     let home = ContextItem(name: "Home", image: UIImage(named: "pineapple_house")!, text:"SpongeBob lives in a pineapple under the sea. The address is 124 Conch Street, Bikini Bottom, Pacific Ocean."
     )
     
-    let pet = ContextItem(name: "Pet", image: UIImage(named: "pineapple_house")!, text:"SpongeBob has a pet snail named Gary. Despite being a snail, Gary can only say \"meow\"."
+    let pet = ContextItem(name: "Pet", image: UIImage(named: "gary")!, text:"SpongeBob has a pet snail named Gary. Despite being a snail, Gary can only say \"meow\"."
     )
     
     let funFact = ContextItem(name:"Fun Fact", image: UIImage(named:"fun_fact")!, text:"According to Ms. Puff, SpongeBob has failed the driver license exam 1,258,056 times."
     )
     
     var contextItems : [ContextItem] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

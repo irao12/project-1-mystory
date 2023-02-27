@@ -11,13 +11,21 @@ class DetailViewController: UIViewController {
 
     var contextItem: ContextItem?
     
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var contextImage: UIImageView!
+    
+    @IBOutlet weak var textLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let contextItem = contextItem {
-            print(contextItem.name)
-        }
-        print("hi")
+
         // Do any additional setup after loading the view.
+        if let contextItem = contextItem {
+            nameLabel.text = contextItem.name
+            contextImage.image = contextItem.image
+            textLabel.text = contextItem.text
+        }
     }
     
 
