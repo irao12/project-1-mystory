@@ -8,6 +8,7 @@
 import UIKit
 
 struct ContextItem {
+    let name: String
     let image: UIImage
     let text: String
 }

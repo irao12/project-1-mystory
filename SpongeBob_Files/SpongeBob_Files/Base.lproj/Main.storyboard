@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dPw-fC-ITI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dGv-mv-dKu">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -8,54 +8,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--SpongeBob Squarepants-->
         <scene sceneID="3MH-lY-9mk">
             <objects>
-                <viewController id="dPw-fC-ITI" sceneMemberID="viewController">
+                <viewController id="dPw-fC-ITI" customClass="ViewController" customModule="SpongeBob_Files" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qxq-Is-6UR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvy-6d-Aqs">
-                                <rect key="frame" x="76.666666666666686" y="68.999999999999986" width="239.66666666666663" height="255.66666666666663"/>
+                                <rect key="frame" x="-303.66666666666669" y="133" width="1000.3333333333335" height="255.66666666666663"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait" translatesAutoresizingMaskIntoConstraints="NO" id="zyY-2V-veb">
-                                        <rect key="frame" x="-380.33333333333337" y="55.333333333333329" width="1000.3333333333334" height="140.66666666666669"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="portrait" translatesAutoresizingMaskIntoConstraints="NO" id="zyY-2V-veb">
+                                        <rect key="frame" x="0.0" y="0.0" width="1000.3333333333334" height="255.66666666666666"/>
+                                        <gestureRecognizers/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpongeBob Squarepants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5n3-KY-KbV">
-                                        <rect key="frame" x="25" y="14.999999999999998" width="189.66666666666666" height="20.333333333333329"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="zyY-2V-veb" firstAttribute="top" secondItem="5n3-KY-KbV" secondAttribute="bottom" constant="20" id="1se-GK-yxB"/>
-                                    <constraint firstItem="5n3-KY-KbV" firstAttribute="leading" secondItem="nvy-6d-Aqs" secondAttribute="leading" constant="25" id="5cL-Xz-IhV"/>
-                                    <constraint firstItem="zyY-2V-veb" firstAttribute="height" secondItem="nvy-6d-Aqs" secondAttribute="height" multiplier="0.55" id="84H-Gk-8ee"/>
-                                    <constraint firstAttribute="trailing" secondItem="5n3-KY-KbV" secondAttribute="trailing" constant="25" id="YY0-MC-PSk"/>
-                                    <constraint firstItem="zyY-2V-veb" firstAttribute="centerX" secondItem="nvy-6d-Aqs" secondAttribute="centerX" id="lI3-Ph-c1s"/>
-                                    <constraint firstItem="5n3-KY-KbV" firstAttribute="top" secondItem="nvy-6d-Aqs" secondAttribute="top" constant="15" id="y8H-lG-4uV"/>
+                                    <constraint firstItem="zyY-2V-veb" firstAttribute="top" secondItem="nvy-6d-Aqs" secondAttribute="top" id="8z7-JM-jRz"/>
+                                    <constraint firstItem="zyY-2V-veb" firstAttribute="leading" secondItem="nvy-6d-Aqs" secondAttribute="leading" id="BQT-4m-A7R"/>
+                                    <constraint firstAttribute="trailing" secondItem="zyY-2V-veb" secondAttribute="trailing" id="YsX-76-3ZK"/>
+                                    <constraint firstAttribute="bottom" secondItem="zyY-2V-veb" secondAttribute="bottom" id="bEw-XV-E5c"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="vr3-i0-B7D" userLabel="Button Stack View">
-                                <rect key="frame" x="153.33333333333334" y="354.66666666666669" width="86.666666666666657" height="151.66666666666669"/>
+                                <rect key="frame" x="152" y="418.66666666666669" width="89.333333333333314" height="143.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epp-fe-71M">
-                                        <rect key="frame" x="0.0" y="0.0" width="86.666666666666671" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="89.333333333333329" height="31"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Address"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="Aet-nw-Pbg"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-kC-Btb">
-                                        <rect key="frame" x="0.0" y="59" width="86.666666666666671" height="33.666666666666657"/>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-kC-Btb">
+                                        <rect key="frame" x="0.0" y="56" width="89.333333333333329" height="31"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Pet"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="FZ5-Xi-hGB"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr5-P7-D9G">
-                                        <rect key="frame" x="0.0" y="117.66666666666663" width="86.666666666666671" height="34"/>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" verticalCompressionResistancePriority="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr5-P7-D9G">
+                                        <rect key="frame" x="0.0" y="111.99999999999994" width="89.333333333333329" height="31"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Fun Fact"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" id="W9m-6E-Gpb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -64,19 +69,57 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="height" secondItem="qxq-Is-6UR" secondAttribute="height" multiplier="0.3" id="03H-bI-DF2"/>
+                            <constraint firstItem="nvy-6d-Aqs" firstAttribute="top" secondItem="yfz-RJ-gmY" secondAttribute="top" constant="30" id="8sS-KF-htM"/>
                             <constraint firstItem="vr3-i0-B7D" firstAttribute="top" secondItem="nvy-6d-Aqs" secondAttribute="bottom" constant="30" id="BKd-vG-8kr"/>
-                            <constraint firstItem="nvy-6d-Aqs" firstAttribute="top" secondItem="yfz-RJ-gmY" secondAttribute="top" constant="10" id="GFq-Ku-QPZ"/>
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="PZW-SR-Exj"/>
                             <constraint firstItem="vr3-i0-B7D" firstAttribute="height" secondItem="yfz-RJ-gmY" secondAttribute="height" multiplier="0.2" id="Xnb-hP-T6f"/>
                             <constraint firstItem="vr3-i0-B7D" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="kxF-oe-PwU"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="SpongeBob Squarepants" id="MnK-EH-Zso"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t8P-Fo-Mzu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.112676056338032" y="373.28244274809157"/>
+            <point key="canvasLocation" x="2831.2977099236641" y="373.23943661971833"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="jnY-7S-Ur7">
+            <objects>
+                <viewController id="EZ5-kE-6sO" customClass="DetailViewController" customModule="SpongeBob_Files" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OHI-fi-qn3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dCs-1B-O1C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kCw-76-tr6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NhU-FC-reB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3552" y="373"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vF9-KO-D6N">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dGv-mv-dKu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HrV-ig-L6Y">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dPw-fC-ITI" kind="relationship" relationship="rootViewController" id="Dj0-fW-VvZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGs-C5-86s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1904.5801526717557" y="373.23943661971833"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="W9m-6E-Gpb"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="portrait" width="1000" height="1000"/>
         <systemColor name="systemBackgroundColor">
