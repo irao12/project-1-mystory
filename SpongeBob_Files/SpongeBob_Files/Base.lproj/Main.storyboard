@@ -32,41 +32,46 @@
                                     <constraint firstAttribute="bottom" secondItem="zyY-2V-veb" secondAttribute="bottom" id="bEw-XV-E5c"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epp-fe-71M">
-                                <rect key="frame" x="138.33333333333334" y="398.66666666666669" width="116.33333333333334" height="34.333333333333314"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Introduction"/>
-                                <connections>
-                                    <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="Aet-nw-Pbg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-kC-Btb">
-                                <rect key="frame" x="161.66666666666666" y="443" width="69.666666666666657" height="34.333333333333314"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
-                                <connections>
-                                    <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="FZ5-Xi-hGB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" verticalCompressionResistancePriority="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr5-P7-D9G">
-                                <rect key="frame" x="172" y="487.33333333333331" width="49.333333333333343" height="34.333333333333314"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Pet"/>
-                                <connections>
-                                    <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="W9m-6E-Gpb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzS-XL-WEB">
-                                <rect key="frame" x="152" y="571.33333333333337" width="89.333333333333314" height="26"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Fun Fact"/>
-                                <connections>
-                                    <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="gPD-os-jDD"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="spv-Yh-PNC" userLabel="Button Stack View">
+                                <rect key="frame" x="138.33333333333334" y="408.66666666666674" width="116.33333333333334" height="286"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epp-fe-71M">
+                                        <rect key="frame" x="0.0" y="0.0" width="116.33333333333333" height="54.333333333333336"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Introduction"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="Aet-nw-Pbg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-kC-Btb">
+                                        <rect key="frame" x="23.333333333333314" y="77.333333333333314" width="69.666666666666671" height="54"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="FZ5-Xi-hGB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" verticalCompressionResistancePriority="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr5-P7-D9G">
+                                        <rect key="frame" x="33.666666666666657" y="154.33333333333331" width="49.333333333333343" height="54.333333333333343"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pet"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="W9m-6E-Gpb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzS-XL-WEB">
+                                        <rect key="frame" x="13.666666666666657" y="231.66666666666671" width="89.333333333333329" height="54.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Fun Fact"/>
+                                        <connections>
+                                            <segue destination="EZ5-kE-6sO" kind="show" identifier="detailSegue" id="gPD-os-jDD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yfz-RJ-gmY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -74,14 +79,9 @@
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="height" secondItem="qxq-Is-6UR" secondAttribute="height" multiplier="0.3" id="03H-bI-DF2"/>
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="top" secondItem="yfz-RJ-gmY" secondAttribute="top" constant="30" id="8sS-KF-htM"/>
                             <constraint firstItem="nvy-6d-Aqs" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="PZW-SR-Exj"/>
-                            <constraint firstItem="Mr5-P7-D9G" firstAttribute="top" secondItem="Dye-kC-Btb" secondAttribute="bottom" constant="10" id="ZvN-RA-Din"/>
-                            <constraint firstItem="epp-fe-71M" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="cQR-yX-axz"/>
-                            <constraint firstItem="Dye-kC-Btb" firstAttribute="top" secondItem="epp-fe-71M" secondAttribute="bottom" constant="10" id="hz1-6j-7nU"/>
-                            <constraint firstItem="epp-fe-71M" firstAttribute="top" secondItem="nvy-6d-Aqs" secondAttribute="bottom" constant="10" id="oyt-AI-Rdu"/>
-                            <constraint firstItem="Mr5-P7-D9G" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="tZh-nz-c7b"/>
-                            <constraint firstItem="NzS-XL-WEB" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="uey-Uf-Jb3"/>
-                            <constraint firstItem="Dye-kC-Btb" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="uw3-fx-ApP"/>
-                            <constraint firstItem="NzS-XL-WEB" firstAttribute="top" secondItem="Mr5-P7-D9G" secondAttribute="bottom" constant="10" id="vaF-sd-R0G"/>
+                            <constraint firstItem="spv-Yh-PNC" firstAttribute="top" secondItem="nvy-6d-Aqs" secondAttribute="bottom" constant="20" id="cvV-8M-skS"/>
+                            <constraint firstItem="spv-Yh-PNC" firstAttribute="centerX" secondItem="qxq-Is-6UR" secondAttribute="centerX" id="urB-hk-GHY"/>
+                            <constraint firstItem="spv-Yh-PNC" firstAttribute="height" secondItem="yfz-RJ-gmY" secondAttribute="height" multiplier="0.4" id="uv5-nd-BlD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SpongeBob Squarepants" id="MnK-EH-Zso"/>
@@ -105,10 +105,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cvf-C0-cWh">
-                                <rect key="frame" x="78.666666666666671" y="154" width="235.66666666666663" height="214.66666666666663"/>
+                                <rect key="frame" x="78.666666666666671" y="154" width="235.66666666666657" height="214.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ps0-K9-RCK">
-                                <rect key="frame" x="78.666666666666671" y="378.66666666666669" width="235.66666666666663" height="255.33333333333331"/>
+                                <rect key="frame" x="78.666666666666671" y="378.66666666666669" width="235.66666666666657" height="255.33333333333331"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
